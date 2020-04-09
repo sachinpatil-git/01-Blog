@@ -1,4 +1,4 @@
 FROM openjdk:8
 EXPOSE 9090
-ADD target/blog-docker.jar blog-docker.jar
-ENTRYPOINT ["java","-jar","/blog-docker.jar"]
+ADD target/01-MyBlog-0.0.1-SNAPSHOT.jar 01-MyBlog-0.0.1-SNAPSHOT.jar
+ENTRYPOINT ["java","-jar","/01-MyBlog-0.0.1-SNAPSHOT.jar"]
